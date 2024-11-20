@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wishes</title>
+    <link rel="stylesheet" href="./CSS/style.css"> <!-- Link your CSS file here if you have one -->
+    <script>
+        function playAudioAndRedirect() {
+            const audio = document.getElementById('birthdayAudio');
+            audio.play();
+
+          
+            // Redirect after 5 seconds
+            setTimeout(() => {
+                audio.pause(); // Pause the audio if it's still playing after 5 seconds
+                window.location.href = 'home.html'; // Replace with your second page URL
+            }, 5000); // 5000 milliseconds = 5 seconds
+        }
+
+        // Add the event listener on page load
+        window.onload = function() {
+            const container = document.querySelector('.container');
+            container.addEventListener('click', playAudioAndRedirect);
+        };
+    </script>
+</head>
+<body class="index-bg">
+    <div class="container" style="height: 100vh; cursor: pointer;">
+        <!-- You can add any content here if needed -->
+    </div>
+    <audio id="birthdayAudio">
+        <source src="./SiriPhotos/lamborghini.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>

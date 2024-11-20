@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Text color for better visibility */
+    background-size: cover; /* Ensures the background image covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Fixes the background image */
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the header */
+    padding: 20px;
+    text-align: center; /* Center the navigation links */
+}
+
+nav a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding around links */
+    margin: 0 10px; /* Space between links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Light background on hover */
+}
+
+/* Section styles */
+section {
+    text-align: center; /* Center text in the section */
+    margin: 50px 0; /* Space above and below */
+}
+
+section h2 {
+    font-size: 2.5em; /* Increase the size of the heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+section p {
+    font-size: 1.2em; /* Increase the size of the paragraph text */
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the paragraph */
+}
+
+/* Background styles for each page */
+.index-bg {
+    background-image: url('../SiriPhotos/lambo.jpg'); /* Main page background */
+}
+
+.home-bg {
+    background-image: url('../SiriPhotos/mobil.jpg'); /* Home page background */
+    background-position-x: center;
+}
+
+
+
+.funfacts-bg {
+    background-image: url('../images/background4.jpg'); /* Fun Facts page background */
+}
+
+.song-bg {
+    background-image: url('../images/background5.jpg'); /* Song page background */
+}
+
+.message-bg {
+    background-image: url('../images/background6.jpg'); /* Message page background */
+}
+
+.gallery-bg {
+    background-image: url('../SiriPhotos/memories.jpg'); /* Main page background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 100vh; /* Ensure it covers the full height of the viewport */
+    width: 100vw; /* Ensure it covers the full width of the viewport */
+    font-family: 'Tahoma', sans-serif; /* Font for photo 3 page */
+    color:rgb(2, 52, 49); /* Font color for photo 3 page */
+}
+
+.gallery {
+    display: grid; /* Use grid display */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Automatically adjust columns */
+    gap: 10px; /* Space between the grid items */
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%; /* Make images responsive to the grid item width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the space without distortion */
+    border-radius: 8px; /* Optional: add rounded corners to images */
+}
+.batman {
+    background-image: url('../SiriPhotos/BAt town.jpg'); /* Main page background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 100vh; /* Ensure it covers the full height of the viewport */
+    width: 100vw; /* Ensure it covers the full width of the viewport */
+}
+
+.lake {
+    background-image: url('../SiriPhotos/Mornign.jpg'); /* Main page background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 100vh; /* Ensure it covers the full height of the viewport */
+    width: 100vw; /* Ensure it covers the full width of the viewport */
+}
+
+.happy {
+    background-image: url('../SiriPhotos/happiness.jpg'); /* Main page background */
+    background-size: cover; /* Cover the entire page */
+    background-position: cover; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 150vh; /* Ensure it covers the full height of the viewport */
+    width: 100vw; /* Ensure it covers the full width of the viewport */
+}
+.vampire {
+    background-image: url('../SiriPhotos/vampire.jpg'); /* Main page background */
+    background-size: cover; /* Cover the entire page */
+    background-position: cover; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 150vh; /* Ensure it covers the full height of the viewport */
+    width: 100vw; /* Ensure it covers the full width of the viewport */
+}
+.gorgeous {
+    background-image: url('../SiriPhotos/gergeous.jpg'); /* Main page background */
+    background-size: cover; /* Cover the entire page */
+    background-position: cover; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 200vh; /* Ensure it covers the full height of the viewport */
+    width: 100vw; /* Ensure it covers the full width of the viewport */
+}
+.joker {
+    background-image: url('../SiriPhotos/Joker.jpg'); /* Main page background */
+    background-size: cover; /* Cover the entire page */
+    background-position: cover; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 100vh; /* Ensure it covers the full height of the viewport */
+    width: 100vw; /* Ensure it covers the full width of the viewport */
+}
+.coffee {
+    background-image: url('../SiriPhotos/Cooffee.jpg'); /* Main page background */
+    background-size: cover; /* Cover the entire page */
+    background-position: cover; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 100vh; /* Ensure it covers the full height of the viewport */
+    width: 100vw; /* Ensure it covers the full width of the viewport */
+}
+.artist {
+    background-image: url('../SiriPhotos/artist.jpg'); /* Main page background */
+    background-size: cover; /* Cover the entire page */
+    background-position: cover; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 100vh; /* Ensure it covers the full height of the viewport */
+    width: 100vw; /* Ensure it covers the full width of the viewport */
+}
+
+audio {
+    display: none; /* Hide audio controls if you don't want them to show */
+}
+.wishes{
+    background-image: url('../SiriPhotos/sunshine.jpg'); /* Main page background */
+    background-size: cover; /* Cover the entire page */
+    background-position: cover; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 80vh; /* Ensure it covers the full height of the viewport */
+    width: 100vw; 
+
+}
+
+.song {
+    background-color: rgb(243, 191, 171); /* Add a semi-transparent black background */
+    background-image: url('../SiriPhotos/BatCat.jpeg.jpg'); /* Main page background */
+    background-size: contain; /* Scale the image to fit within the page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 100vh; /* Ensure it covers the full height of the viewport */
+    width: 100vw; /* Cover the full width of the viewport */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.Inocence {
+    background-color:grey; /* Add a semi-transparent black background */
+    background-image: url('../SiriPhotos/ino2.jpg'); /* Main page background */
+    background-size: contain; /* Scale the image to fit within the page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 100vh; /* Ensure it covers the full height of the viewport */
+    width: 100vw; /* Cover the full width of the viewport */
+    overflow: hidden; /* Prevent overflow */
+}
+
+
